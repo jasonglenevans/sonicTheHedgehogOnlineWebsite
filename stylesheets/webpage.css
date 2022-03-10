@@ -1,0 +1,50 @@
+.bannerTop {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:40px;
+	background-image:url("../banners/topBackground.png");
+}
+.link {
+	font-family:arial;
+	font-weight:bold;
+	color:#007bff;
+	cursor:pointer;
+}
+.bannerTopLink {
+	font-family:arial;
+	font-weight:bold;
+	color:#007bff;
+	cursor:pointer;
+	font-size:20px;
+	display:block;
+	margin-top:10px;
+	margin-left: 10px;
+}
+.bannerTopLinkDisabled {
+	font-family:arial;
+	font-weight:bold;
+	color:green;
+	cursor:pointer;
+	font-size:20px;
+	display:block;
+	margin-top:10px;
+	margin-left: 10px;
+}
+.bannerTopLink:hover {
+	color:#00eeff;
+}
+.link:hover {
+	color:#00eeff;
+}
+html {
+	image-rendering:pixelated;
+}
+body {
+	background-image:url("../src/bg.png");
+	font-family:arial;
+}
+h1 {
+	font-weight:bold;
+}
